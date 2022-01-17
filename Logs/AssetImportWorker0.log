@@ -15,11 +15,11 @@ C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1240
+1220
 Successfully changed project path to: C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle-Project
 C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 167.23 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 173.77 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,99 +35,99 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006705 seconds.
+Registered in 0.005793 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.16 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 124.30 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
+- Completed reload, in  1.175 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1172ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (919ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (340ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (353ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (141ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (150ms)
 				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.022531 seconds.
+Registered in 0.025264 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 146.94 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 122.92 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][22:42:38.612016][tid:5358] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][22:42:38.612411][tid:5358] InputProvider_RegisterLifeCycleProvider
-[XR] [MROpenXR][Info   ][22:42:38.613892][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.25f1
-[XR] [MROpenXR][Info   ][22:42:38.614762][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][22:42:38.614834][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
-[XR] [MROpenXR][Info   ][22:42:38.614939][tid:5358] OnPluginStarted UnityVersion=2020.3.25f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][13:28:01.400644][tid:4938] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][13:28:01.400880][tid:4938] InputProvider_RegisterLifeCycleProvider
+[XR] [MROpenXR][Info   ][13:28:01.402598][tid:4938] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.25f1
+[XR] [MROpenXR][Info   ][13:28:01.403591][tid:4938] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:28:01.403675][tid:4938] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:28:01.403806][tid:4938] OnPluginStarted UnityVersion=2020.3.25f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  4.836 seconds
+- Completed reload, in  4.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4838ms)
-		BeginReloadAssembly (277ms)
+	ReloadAssembly (4494ms)
+		BeginReloadAssembly (285ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (4421ms)
-			LoadAssemblies (291ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (4049ms)
+			LoadAssemblies (223ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (801ms)
+			SetupTypeCache (696ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (171ms)
-			SetupLoadedEditorAssemblies (2821ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (2708ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (147ms)
-				BeforeProcessingInitializeOnLoad (219ms)
-				ProcessInitializeOnLoadAttributes (1975ms)
-				ProcessInitializeOnLoadMethodAttributes (450ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (1867ms)
+				ProcessInitializeOnLoadMethodAttributes (490ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3546 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.6 MB.
+System memory in use before: 139.7 MB.
 System memory in use after: 139.5 MB.
 
 Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3992.
-Total: 5.674600 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.197100 ms MarkObjects: 4.685300 ms  DeleteObjects: 0.243600 ms)
+Total: 6.487300 ms (FindLiveObjects: 0.542100 ms CreateObjectMapping: 0.206400 ms MarkObjects: 5.462600 ms  DeleteObjects: 0.274400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -139,177 +139,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Script/Zone_Trigger.cs
-  artifactKey: Guid(455c839b939fa8e4aa13813fd53b7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Zone_Trigger.cs using Guid(455c839b939fa8e4aa13813fd53b7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2a0244232f7136284bb8cf2e5d9636') in 0.083113 seconds 
-  Import took 0.093368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.499595 seconds.
-  path: Assets/Script/Zone_Trigger.cs
-  artifactKey: Guid(455c839b939fa8e4aa13813fd53b7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Zone_Trigger.cs using Guid(455c839b939fa8e4aa13813fd53b7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ddc52966c328b561a237bd98748991') in 0.007417 seconds 
-  Import took 0.016376 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019330 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@48b10514071b-1639885424000/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@48b10514071b-1639885424000/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@48b10514071b-1639885424000/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-[XR] [MROpenXR][Info   ][22:43:49.045468][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.25f1
-[XR] [MROpenXR][Info   ][22:43:49.046299][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][22:43:49.046375][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
-[XR] [MROpenXR][Info   ][22:43:49.046479][tid:5358] OnPluginStarted UnityVersion=2020.3.25f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
-Mono: successfully reloaded assembly
-- Completed reload, in  3.601 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3602ms)
-		BeginReloadAssembly (214ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (3259ms)
-			LoadAssemblies (196ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (912ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (1768ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (155ms)
-				ProcessInitializeOnLoadAttributes (1249ms)
-				ProcessInitializeOnLoadMethodAttributes (340ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 3.78 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.2 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 3995.
-Total: 22.864400 ms (FindLiveObjects: 2.794600 ms CreateObjectMapping: 0.533500 ms MarkObjects: 18.794400 ms  DeleteObjects: 0.739700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 30.299251 seconds.
-  path: Assets/Script/Zone_Trigger.cs
-  artifactKey: Guid(455c839b939fa8e4aa13813fd53b7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Zone_Trigger.cs using Guid(455c839b939fa8e4aa13813fd53b7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cd2036bce73ad3fce01d3ade0196a1') in 0.015756 seconds 
-  Import took 0.025185 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021147 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.42 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@48b10514071b-1639885424000/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@48b10514071b-1639885424000/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: C:/Users/Jonatan Linder/Desktop/Unity/Unity Projects/Puzzle/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@48b10514071b-1639885424000/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-[XR] [MROpenXR][Info   ][22:44:00.535015][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.25f1
-[XR] [MROpenXR][Info   ][22:44:00.536430][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][22:44:00.536550][tid:5358] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
-[XR] [MROpenXR][Info   ][22:44:00.536675][tid:5358] OnPluginStarted UnityVersion=2020.3.25f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
-Mono: successfully reloaded assembly
-- Completed reload, in  3.847 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3848ms)
-		BeginReloadAssembly (271ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (107ms)
-		EndReloadAssembly (3432ms)
-			LoadAssemblies (243ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (732ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (2024ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (185ms)
-				ProcessInitializeOnLoadAttributes (1419ms)
-				ProcessInitializeOnLoadMethodAttributes (388ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.04 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.3 MB.
-System memory in use after: 136.2 MB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 3998.
-Total: 7.189900 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.434000 ms MarkObjects: 5.916600 ms  DeleteObjects: 0.203500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
