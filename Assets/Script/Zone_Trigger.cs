@@ -7,7 +7,7 @@ public class Zone_Trigger : MonoBehaviour
 
     public Renderer rend;
     public GameObject puzzle_piece;
-    public Transform zones;
+    //public Transform zones;
 
     /*public struct Pieces {
 
@@ -43,14 +43,14 @@ public class Zone_Trigger : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        zones = this.gameObject.transform.GetChild(0);
+        //zones = this.gameObject.transform.GetChild(0);
         //GameObject zone_1;
         //zone_1.GetComponent<Renderer>().enabled = false;
 
-        if (other.tag == zones.tag)  //Checks if the correct piece is in the correct spot and deletes the zone
+        if (other.tag == gameObject.tag)  //Checks if the correct piece is in the correct spot and deletes the zone
         {
-            print(zones.tag);
-            other.transform.parent = null;
+            print(gameObject.tag);
+            //other.transform.parent = null;
             Destroy(gameObject);
         }
         else
