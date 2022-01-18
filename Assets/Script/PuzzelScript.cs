@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class PuzzelScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public List<GameObject> Pieces = new List<GameObject>();
+    public List<Vector3> StartPos = new List<Vector3>();
+
     void Start()
     {
-        
+ 
+        AddPieces();
+        AddStartPos();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddPieces()
     {
-        
+        Transform[] Children = GetComponentsInChildren<Transform>();
+        foreach (Transform child in Children)
+        {
+            
+            Pieces.Add(child.gameObject);
+        }
+    }
+    public void AddStartPos()
+    {
+        Transform[] Children = GetComponentsInChildren<Transform>();
+        foreach (Transform child in Children)
+        {
+            
+            StartPos.Add(child.transform.position);
+        }
     }
 }

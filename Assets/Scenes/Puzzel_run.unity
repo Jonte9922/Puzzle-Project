@@ -157,6 +157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &178102329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -267,6 +269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &255694287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1591,6 +1595,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &788643756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2259,6 +2265,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &1327473113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2369,6 +2377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &1340502860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2808,6 +2818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &1590455804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2918,6 +2930,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &1657988938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3003,6 +3017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1696914592}
+  - component: {fileID: 1696914593}
   m_Layer: 0
   m_Name: Pieces
   m_TagString: Untagged
@@ -3034,6 +3049,18 @@ Transform:
   m_Father: {fileID: 616701332}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696914593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696914591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd89944dd5bcc841aa8cfbe8ef39477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1707468275
 GameObject:
   m_ObjectHideFlags: 0
@@ -3068,6 +3095,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &1707468277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3364,6 +3393,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
+  aaa: {fileID: 1696914591}
+  qwerty: []
 --- !u!65 &2037221479
 BoxCollider:
   m_ObjectHideFlags: 0
