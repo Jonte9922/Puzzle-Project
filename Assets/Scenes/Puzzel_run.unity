@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,9 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &178102329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -267,9 +264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &255694287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -905,6 +899,67 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &511731844
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 641394362982409533, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_MotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.079437
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.2608767
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.969877
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424522, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 641394363191424523, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
+      propertyPath: m_Name
+      value: EyeTracking
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cdf6dffd67e8434884b2c8fe85da3a5, type: 3}
 --- !u!1 &523233288
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,7 +1002,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &526781926
 GameObject:
@@ -978,7 +1033,7 @@ Transform:
   m_Children:
   - {fileID: 1461139322}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &548265814
 GameObject:
@@ -1111,7 +1166,7 @@ Transform:
   - {fileID: 1327473116}
   - {fileID: 178102332}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &622252072
 GameObject:
@@ -1528,7 +1583,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &788643754
 GameObject:
@@ -1562,9 +1617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &788643756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2232,9 +2284,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &1327473113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2344,9 +2393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &1340502860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2785,9 +2831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &1590455804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2897,9 +2940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &1657988938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3009,9 +3049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &1707468277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3307,9 +3344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455c839b939fa8e4aa13813fd53b7d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  puzzle_piece: {fileID: 0}
-  meeple: {fileID: 0}
 --- !u!65 &2037221479
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3480,5 +3514,5 @@ Transform:
   m_LocalScale: {x: 3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
