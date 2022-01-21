@@ -6,30 +6,35 @@ public class PuzzelScript : MonoBehaviour
 {
     public List<GameObject> Pieces = new List<GameObject>();
     public List<Vector3> StartPos = new List<Vector3>();
+    public List<Quaternion> rot = new List<Quaternion>();
 
     void Start()
     {
  
-        AddPieces();
-        AddStartPos();
+        AddPieceInformation();
     }
 
-    public void AddPieces()
+    void Update()
+    {
+    }
+
+    public void AddPieceInformation()
     {
         Transform[] Children = GetComponentsInChildren<Transform>();
         foreach (Transform child in Children)
         {
             
             Pieces.Add(child.gameObject);
+            StartPos.Add(child.transform.position);
+            rot.Add(child.transform.rotation);
         }
     }
-    public void AddStartPos()
+
+    public void ChangePos(GameObject PieceName)
     {
-        Transform[] Children = GetComponentsInChildren<Transform>();
-        foreach (Transform child in Children)
-        {
-            
-            StartPos.Add(child.transform.position);
-        }
+        int Nr = Pieces.IndexOf(PieceName);
+
+        Pieces[Nr].transform.position = StartPos[Nr];
+        Pieces[Nr].transform.rotation = rot[Nr];
     }
 }

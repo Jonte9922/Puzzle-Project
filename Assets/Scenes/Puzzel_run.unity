@@ -157,8 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &178102329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -269,8 +268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &255694287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1595,8 +1593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &788643756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2265,8 +2262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &1327473113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2377,8 +2373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &1340502860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2818,8 +2813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &1590455804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2930,8 +2924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &1657988938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3061,6 +3054,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcd89944dd5bcc841aa8cfbe8ef39477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Pieces: []
+  StartPos: []
+  rot: []
 --- !u!1 &1707468275
 GameObject:
   m_ObjectHideFlags: 0
@@ -3095,8 +3091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &1707468277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3204,7 +3199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013805056}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.053999998, y: 0, z: 0}
+  m_LocalPosition: {x: 0.06, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.518, z: 0.006031969}
   m_Children: []
   m_Father: {fileID: 1696914592}
@@ -3393,8 +3388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
   puzzle_piece: {fileID: 0}
-  aaa: {fileID: 1696914591}
-  qwerty: []
+  pie: {fileID: 1696914591}
 --- !u!65 &2037221479
 BoxCollider:
   m_ObjectHideFlags: 0
