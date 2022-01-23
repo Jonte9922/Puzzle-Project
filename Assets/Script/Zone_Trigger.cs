@@ -10,6 +10,7 @@ public class Zone_Trigger : MonoBehaviour
     PuzzelScript puzzelScript;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +40,7 @@ public class Zone_Trigger : MonoBehaviour
         }
         else
         {
+            
             print("Wrong Piece");
             puzzelScript.ChangePos(other.gameObject);
         }

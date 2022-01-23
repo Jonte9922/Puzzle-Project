@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Console
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,8 +45,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 342}
-  m_MaxSize: {x: 12003, y: 8042}
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
   controlID: 76
 --- !u!114 &3
@@ -94,9 +94,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 348
-    height: 676
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    height: 628
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -118,11 +118,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 676
+    y: 628
     width: 1642
-    height: 271
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+    height: 319
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
@@ -248,7 +248,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1642
-    height: 676
+    height: 628
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
@@ -271,7 +271,7 @@ MonoBehaviour:
     x: 348
     y: 0
     width: 1294
-    height: 676
+    height: 628
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -352,9 +352,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 749
+    y: 701
     width: 1641
-    height: 250
+    height: 298
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Packages/com.microsoft.mixedreality.toolkit.foundation/Services/InputSystem
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 88
   m_LastFolders:
-  - Assets
+  - Packages/com.microsoft.mixedreality.toolkit.foundation/Services/InputSystem
   m_LastFoldersGridSize: 88
   m_LastProjectPath: C:\Users\Jonatan Linder\Desktop\Unity\Unity Projects\Puzzle-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 14}
-    m_SelectedIDs: 44630000
-    m_LastClickedID: 25412
-    m_ExpandedIDs: 0000000044630000de65000000ca9a3b
+    scrollPos: {x: 0, y: 234}
+    m_SelectedIDs: ae640000
+    m_LastClickedID: 25774
+    m_ExpandedIDs: 000000004463000046630000486300004a6300004c630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000044630000
+    m_ExpandedIDs: 000000004463000046630000486300004a6300004c630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -437,9 +437,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: da620000
-    m_LastClickedInstanceID: 25306
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 66620000
+    m_LastClickedInstanceID: 25190
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 88
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 199
+  m_DirectoriesAreaWidth: 259
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -528,14 +528,14 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 347
-    height: 655
+    height: 607
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 64fbffff08620000c8620000
+      m_ExpandedIDs: c4faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -582,7 +582,7 @@ MonoBehaviour:
     x: 348
     y: 73
     width: 1292
-    height: 655
+    height: 607
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
@@ -595,9 +595,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.015649006, y: 0.77055657, z: -0.5874537}
+    m_Target: {x: -0.014736781, y: 0.75952065, z: -0.58847606}
     speed: 2
-    m_Value: {x: -0.015649006, y: 0.77055657, z: -0.5874537}
+    m_Value: {x: -0.014736781, y: 0.75952065, z: -0.58847606}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -644,9 +644,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0000011658668, y: 0.08451796, z: -0.00009308795, w: 0.9965017}
+    m_Target: {x: 0.07610776, y: 0.09171302, z: -0.007125426, w: 0.99292773}
     speed: 2
-    m_Value: {x: 0.0000011657743, y: 0.08451125, z: -0.000093080555, w: 0.9964226}
+    m_Value: {x: 0.07610168, y: 0.091705695, z: -0.007124857, w: 0.99284846}
   m_Size:
     m_Target: 0.036200523
     speed: 2
@@ -698,7 +698,7 @@ MonoBehaviour:
     x: 348
     y: 73
     width: 1292
-    height: 655
+    height: 607
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -743,22 +743,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1292
-      height: 634
-    m_Scale: {x: 0.44027779, y: 0.44027779}
-    m_Translation: {x: 646, y: 317}
+      height: 586
+    m_Scale: {x: 0.40694445, y: 0.40694445}
+    m_Translation: {x: 646, y: 293}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1467.2555
+      x: -1587.4402
       y: -720
-      width: 2934.511
+      width: 3174.8804
       height: 1440
     m_MinimalGUI: 1
-  m_defaultScale: 0.44027779
-  m_LastWindowPixelSize: {x: 1292, y: 655}
+  m_defaultScale: 0.40694445
+  m_LastWindowPixelSize: {x: 1292, y: 607}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000100000100
@@ -785,9 +785,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 749
+    y: 701
     width: 1641
-    height: 250
+    height: 298
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
